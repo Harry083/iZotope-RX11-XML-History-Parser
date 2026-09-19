@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RxHistory product="iZotope RX 11 Advanced" generated-on="2026-09-01T10:15:00" format="1">
+  <ClipStorageSingleFile>
+    <File>C:\Cases\CR-2026-00123\Exhibit_04\original_audio.wav</File>
+  </ClipStorageSingleFile>
+  <OriginalClipInfo>
+    <ChannelCount>2</ChannelCount>
+    <BitsPerSample>24</BitsPerSample>
+    <SamplingRate>48000</SamplingRate>
+    <SampleFrameCount>4800000</SampleFrameCount>
+  </OriginalClipInfo>
+  <History>
+    <Render>
+      <Description>De-hum</Description>
+      <OperationName>De-hum</OperationName>
+      <TimeStamp>2026-09-01T10:16:12</TimeStamp>
+      <UndoStyle>Full</UndoStyle>
+      <Key>Frequency</Key>
+      <Number>50</Number>
+      <Key>Q</Key>
+      <Number>12</Number>
+    </Render>
+    <Render>
+      <Description>Spectral Denoise on selected region</Description>
+      <OperationName>Spectral De-noise</OperationName>
+      <TimeStamp>2026-09-01T10:22:47</TimeStamp>
+      <UndoStyle>Full</UndoStyle>
+      <Key>Reduction</Key>
+      <Number>8.5</Number>
+      <PolyRegion>
+        <Loop>(0,0) (2400000,0) (2400000,24000) (0,24000)</Loop>
+        <Feathering>4</Feathering>
+        <FreqFeathering>2</FreqFeathering>
+      </PolyRegion>
+    </Render>
+  </History>
+</RxHistory>

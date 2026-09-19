@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "izotope-rx11-xml-history-parser"
+version = "0.1.0"
+description = "Convert an iZotope RX History XML export into a readable PDF report"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [
+    { name = "Harry Smallwood" }
+]
+dependencies = [
+    "reportlab>=4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Harry083/iZotope-RX11-XML-History-Parser"
+
+[project.scripts]
+rx-history-to-pdf = "rx_history_to_pdf:main"
+
+[tool.setuptools]
+py-modules = ["rx_history_to_pdf"]

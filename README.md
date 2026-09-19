@@ -25,7 +25,7 @@ A multi-page A4 PDF with:
 ## Installation
 
 ```bash
-git clone https://github.com/<Harry083>/iZotope-RX11-XML-History-Parser.git
+git clone https://github.com/Harry083/iZotope-RX11-XML-History-Parser.git
 cd iZotope-RX11-XML-History-Parser
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
@@ -40,7 +40,7 @@ Optionally install it as a command-line tool:
 pip install .
 ```
 
-which puts an `iZotope-RX11-XML-History-Parser` command on your `PATH`.
+which puts an `rx-history-to-pdf` command on your `PATH`.
 
 ## Usage
 
@@ -100,3 +100,6 @@ synthetic history file in `tests/fixtures/sample_history.xml`.
   given; treat the produced PDF as a formatting convenience, not evidence in
   itself.
 
+## License
+
+[MIT](LICENSE)
